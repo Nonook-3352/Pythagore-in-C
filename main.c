@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-float AB, BC, AC;
+float AB, BC;
 
-float pythagore(int ab, int bc) {
+double pythagore(int ab, int bc) {
 	double result;
 	result = ab*ab + bc*bc;
 	result = sqrt(result);
